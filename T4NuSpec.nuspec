@@ -1,1 +1,25 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>T4NuSpec</id>
+    <version>0.0.1-alpha</version>
+    <title>T4NuSpec by SchwabenCode</title>
+    <authors>Benjamin Abt (SchwabenCode.com)</authors>
+    <owners>Benjamin Abt (SchwabenCode.com)</owners>
+    <licenseUrl>https://github.com/SchwabenCode/T4NuSpec/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/SchwabenCode/T4NuSpec</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+    </description>
+    <summary></summary>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Benjamin Abt (SchwabenCode.com) - 2015</copyright>
+  </metadata>
+  <dependencies>
+    <dependency id="T4MultipleOutput" version="1.0.1-prerelease" />
+</dependencies>
+  <files>
+    <file src="T4NuSpec.tt" target="Content\" />
+  </files>
+</package>
