@@ -18,7 +18,7 @@
   </metadata>
   <dependencies>
     <dependency id="T4MultipleOutput" version="1.0.1-prerelease" />
-</dependencies>
+  </dependencies>
   <files>
     <file src="T4NuSpec.tt" target="Content\" />
   </files>
