@@ -10,6 +10,7 @@
     <projectUrl>https://github.com/SchwabenCode/T4NuSpec</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
+      T4 script to generate assembly information and nuspec for NuGet automatically.
     </description>
     <summary></summary>
     <releaseNotes>
