@@ -31,7 +31,6 @@
     // ## use a random generated Guid here!!!
     string assemblyGuid = "- INSERT GUID HERE -";
 
-
     // ============ NuSpec Contents
     IList<KeyValuePair<String,String>> nugetFiles = new List<KeyValuePair<String,String>>();
     nugetFiles.Add(new KeyValuePair<String,String>( @"source path", @"NuGet target path" ));
@@ -102,14 +101,14 @@ using System.Runtime.InteropServices;
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id><#= nugetPackageId #></id>
-    <version><#= assemblyVersion #></version>
-    <title><#= assemblyTitle #></title>
+    <version><#= nugetVersion #></version>
+    <title><#= projectTitle #></title>
     <authors><#= assemblyCompany #></authors>
     <owners><#= assemblyCompany #></owners>
     <licenseUrl><#= nugetLicenseUrl #></licenseUrl>
     <projectUrl><#= nugetProjectUrl #></projectUrl>
     <requireLicenseAcceptance><#= nugetPackageId #></requireLicenseAcceptance>
-    <description><#= assemblyDescription #></description>
+    <description><#= projectDescription #></description>
     <summary><#= nugetSummary #></summary>
     <releaseNotes><#= nugetReleaseInfo #></releaseNotes>
     <copyright><#= assemblyCopyright #></copyright>
