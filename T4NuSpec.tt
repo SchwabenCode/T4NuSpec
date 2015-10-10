@@ -107,7 +107,7 @@ using System.Runtime.InteropServices;
     <owners><#= assemblyCompany #></owners>
     <licenseUrl><#= nugetLicenseUrl #></licenseUrl>
     <projectUrl><#= nugetProjectUrl #></projectUrl>
-    <requireLicenseAcceptance><#= nugetPackageId #></requireLicenseAcceptance>
+    <requireLicenseAcceptance><#= nugetRequireLicenseAcceptance #></requireLicenseAcceptance>
     <description><#= projectDescription #></description>
     <summary><#= nugetSummary #></summary>
     <releaseNotes><#= nugetReleaseInfo #></releaseNotes>
