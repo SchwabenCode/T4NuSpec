@@ -91,7 +91,7 @@ using System.Runtime.InteropServices;
     <authors><#= nugetPackageId #></authors>
     <owners><#= nugetPackageId #></owners>
     <licenseUrl><#= nugetPackageId #></licenseUrl>
-    <projectUrl><#= nugetPackageId #>/projectUrl>
+    <projectUrl><#= nugetPackageId #></projectUrl>
     <requireLicenseAcceptance><#= nugetPackageId #></requireLicenseAcceptance>
     <description><#= nugetPackageId #></description>
     <summary><#= nugetPackageId #></summary>
