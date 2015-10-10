@@ -1,5 +1,5 @@
 <#@ template debug="false" hostspecific="true" language="C#" #>
-<#@include file="../MultipleOutput.ttinclude"#>
+<#@include file=".t4\MultipleOutput.ttinclude"#>
 <# var manager = Manager.Create(Host, GenerationEnvironment); #>
 
 // ##################################################################################################
