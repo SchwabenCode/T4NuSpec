@@ -18,7 +18,7 @@ For FAKE or other build tools you can link direct to
 
 ### NuGet
 ```Install-Package T4NuSpec```
-
+or visit [FlexMapper on NuGet](https://www.nuget.org/packages/T4NuSpec/)
 
 ## Give Thanks
 
