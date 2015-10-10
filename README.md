@@ -17,7 +17,9 @@ For FAKE or other build tools you can link direct to
 *https://github.com/SchwabenCode/T4NuSpec/blob/master/T4NuSpec.tt*
 
 ### NuGet
-```Install-Package T4NuSpec```
+```
+Install-Package T4NuSpec
+```
 or visit [T4NuSpec on NuGet](https://www.nuget.org/packages/T4NuSpec/)
 
 ## Give Thanks
